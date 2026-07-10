@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lucas Henrique Santos · Psicanálise em Natal e online</title>
+<meta name="description" content="Psicanálise com Lucas Henrique Santos. Um espaço para escutar o que você vem adiando dizer. Atendimento presencial em Natal/RN e online.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..600&family=Karla:ital,wght@0,300..700;1,400&display=swap" rel="stylesheet">
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          noite:  '#04100C',
+          breu:   '#071C16',
+          fundo:  '#0B2A20',
+          verde:  '#3E9A78',
+          brilho: '#8FD6B4',
+          aurora: '#E7F0E2',
+          tinta:  '#0C2A1F',
+          musgo:  '#7FA490',
+        },
+        fontFamily: {
+          display: ['Fraunces', 'Georgia', 'serif'],
+          corpo:   ['Karla', 'system-ui', 'sans-serif'],
+        },
+      },
+    },
+  };
+</script>
+<link rel="stylesheet" href="estilos.css">
+</head>
+
+<body class="font-corpo antialiased">
+
+<!-- Camadas de atmosfera -->
+<div class="lanterna" aria-hidden="true"></div>
+<div class="veu" aria-hidden="true"></div>
+
+<header class="topo" id="topo">
+  <div class="env topo__linha">
+    <a href="#hero" class="marca">
+      <span class="marca__ponto" aria-hidden="true"></span>
+      Lucas Henrique Santos
+    </a>
+
+    <nav class="topo__nav" aria-label="Seções">
+      <a href="#sobre">Sobre</a>
+      <a href="#escuta">Escuta</a>
+      <a href="#encontro">Como acontece</a>
+    </nav>
+
+    <!-- MOCK: o href é reescrito por script.js a partir de CONTATO -->
+    <a data-zap href="https://wa.me/5584900000000" class="btn btn--fino">Falar no WhatsApp</a>
+  </div>
+</header>
+
+<div class="pagina">
+<main>
+
+  <!-- ══ HERO · a noite ══ -->
+  <section class="hero" id="hero">
+
+    <!-- Camada do não-dito: puramente atmosférica, revelada pela lanterna -->
+    <div class="naodito" aria-hidden="true">
+      <div class="naodito__camada naodito__camada--breu"></div>
+      <div class="naodito__camada naodito__camada--luz"></div>
+    </div>
+
+    <div class="env hero__conteudo">
+      <p class="sobrancelha hero__kicker">Psicanálise · Natal/RN · Online</p>
+
+      <h1 class="hero__titulo">
+        <span class="linha"><span>Nem tudo o que pesa</span></span>
+        <span class="linha"><span>tem nome.</span></span>
+        <span class="linha"><span class="hero__ainda">Ainda.</span></span>
+      </h1>
+
+      <p class="hero__sub rev" style="--d:.75s">
+        Atendo adultos que chegam com algo difícil de formular — e saem
+        com palavras que antes não existiam. Presencial em Natal e por
+        videochamada, onde você estiver.
+      </p>
+
+      <div class="hero__acoes rev" style="--d:.9s">
+        <a data-zap href="https://wa.me/5584900000000" class="btn btn--luz">
+          <svg class="icone-zap" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m0 1.67c2.2 0 4.27.86 5.82 2.42a8.19 8.19 0 0 1 2.42 5.83c0 4.54-3.7 8.23-8.24 8.23a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24M8.53 7.33c-.16 0-.43.06-.66.31-.22.25-.86.85-.86 2.07s.89 2.4 1.01 2.56c.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.46-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.07-.1-.23-.16-.48-.28-.25-.14-1.47-.72-1.69-.81-.23-.08-.37-.12-.56.12-.16.25-.64.81-.78.97-.15.17-.29.19-.53.07-.26-.13-1.06-.39-2-1.23-.74-.66-1.23-1.47-1.38-1.72-.12-.24-.01-.39.11-.5.11-.11.27-.29.37-.44.13-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43-.14 0-.3-.01-.47-.01"/></svg>
+          Falar no WhatsApp
+        </a>
+        <a href="#encontro" class="btn btn--vazio">Como acontece</a>
+      </div>
+    </div>
+
+    <div class="hero__pe rev" style="--d:1.15s" aria-hidden="true">
+      <span class="hero__dica">role para amanhecer</span>
+      <span class="hero__fio"></span>
+    </div>
+  </section>
+
+
+  <!-- ══ MANIFESTO ══ -->
+  <section class="secao manifesto">
+    <div class="env">
+      <p class="sobrancelha rev">O não-dito</p>
+      <p class="manifesto__texto rev" style="--d:.1s">
+        A análise não entrega respostas prontas. Ela devolve a palavra a quem
+        a perdeu de vista. <em>Falar sem edição</em>, diante de alguém que
+        escuta sem pressa — e ver aparecer, aos poucos, aquilo que estava ali
+        o tempo todo.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- ══ SOBRE ══ -->
+  <section class="secao" id="sobre">
+    <div class="env sobre">
+
+      <figure class="retrato rev">
+        <!-- MOCK: para trocar a foto, defina --foto no seletor .retrato__moldura (estilos.css) -->
+        <div class="retrato__moldura"></div>
+        <figcaption class="retrato__legenda">foto · placeholder</figcaption>
+      </figure>
+
+      <div class="sobre__texto">
+        <p class="sobrancelha rev">Quem escuta</p>
+        <h2 class="titulo rev" style="--d:.08s">Lucas Henrique Santos</h2>
+
+        <!-- MOCK: registro profissional e formação -->
+        <p class="assinatura rev" style="--d:.14s">Psicólogo · CRP 00/000000 · Psicanalista</p>
+
+        <div class="prosa">
+          <p class="rev" style="--d:.2s">
+            Trabalho com adultos, em Natal, há mais de dez anos. Boa parte de
+            quem me procura não sabe exatamente o que quer dizer no primeiro
+            encontro — e tudo bem. É justamente aí que a análise começa.
+          </p>
+          <p class="rev" style="--d:.28s">
+            Minha formação é psicanalítica: escuto o que se repete, o que
+            escapa, o que insiste em voltar sob outra forma. Não ofereço
+            técnicas de correção de comportamento. Ofereço tempo, sigilo e uma
+            escuta que não tem pressa de concluir.
+          </p>
+          <p class="rev" style="--d:.36s">
+            Sigo em análise pessoal e supervisão contínua, porque não se escuta
+            bem sem antes ter sido escutado.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ══ ESCUTA PARA ══ -->
+  <section class="secao" id="escuta">
+    <div class="env">
+      <p class="sobrancelha rev">Motivos que chegam</p>
+      <h2 class="titulo titulo--largo rev" style="--d:.08s">
+        Não é preciso estar em crise para começar.
+      </h2>
+
+      <div class="grade">
+        <article class="carta rev">
+          <h3>Ansiedade e angústia</h3>
+          <p>Aquele aperto sem endereço, que aparece antes do pensamento e não passa com explicação.</p>
+        </article>
+        <article class="carta rev" style="--d:.06s">
+          <h3>Luto e perdas</h3>
+          <p>Não só a morte: o fim de um vínculo, de uma cidade, de uma versão de si mesmo.</p>
+        </article>
+        <article class="carta rev" style="--d:.12s">
+          <h3>Relações que se repetem</h3>
+          <p>Quando a mesma história reaparece com pessoas diferentes e você não sabe por quê.</p>
+        </article>
+        <article class="carta rev" style="--d:.18s">
+          <h3>Trabalho e esgotamento</h3>
+          <p>O cansaço que o descanso não resolve, e a dificuldade de parar sem culpa.</p>
+        </article>
+        <article class="carta rev" style="--d:.24s">
+          <h3>Sexualidade e desejo</h3>
+          <p>Aquilo que a gente adia dizer em voz alta, inclusive para si.</p>
+        </article>
+        <article class="carta rev" style="--d:.3s">
+          <h3>Mudanças de fase</h3>
+          <p>Separações, maternidade e paternidade, migrações, os trinta, os quarenta, o depois.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Uma só faixa de amanhecer atravessa "Como acontece" e o contato,
+       para que a transição seja contínua, sem costura entre as seções. -->
+  <div class="crepusculo">
+
+  <!-- ══ COMO ACONTECE ══ -->
+  <section class="secao" id="encontro">
+    <div class="env">
+      <p class="sobrancelha rev">Como acontece</p>
+      <h2 class="titulo titulo--largo rev" style="--d:.08s">
+        Dois modos, a mesma escuta.
+      </h2>
+
+      <div class="modos">
+        <article class="modo rev">
+          <span class="modo__marca" aria-hidden="true"></span>
+          <h3>Presencial</h3>
+          <!-- MOCK: endereço do consultório -->
+          <p class="modo__local">Rua Exemplo, 000 · Tirol, Natal/RN</p>
+          <p>Uma sala silenciosa, poltrona ou divã. Você escolhe como quer ficar.</p>
+        </article>
+
+        <article class="modo rev" style="--d:.08s">
+          <span class="modo__marca modo__marca--online" aria-hidden="true"></span>
+          <h3>Online</h3>
+          <p class="modo__local">Videochamada · qualquer lugar</p>
+          <p>Mesma frequência, mesmo sigilo. Basta um lugar onde você possa falar à vontade.</p>
+        </article>
+      </div>
+
+      <dl class="sessao">
+        <div class="rev"><dt>Duração</dt><dd>50 minutos</dd></div>
+        <div class="rev" style="--d:.06s"><dt>Frequência</dt><dd>Combinada a dois</dd></div>
+        <div class="rev" style="--d:.12s"><dt>Sigilo</dt><dd>Absoluto, sempre</dd></div>
+        <div class="rev" style="--d:.18s"><dt>Primeira conversa</dt><dd>Sem compromisso</dd></div>
+      </dl>
+
+      <div class="perguntas">
+        <details class="pergunta rev">
+          <summary>Preciso ter um problema grave para começar?<span class="pergunta__mais" aria-hidden="true"></span></summary>
+          <div class="corpo"><div><p>Não. Muita gente procura análise por um incômodo difícil de nomear, ou simplesmente pelo desejo de se entender melhor. Sofrimento não precisa de laudo para ser levado a sério.</p></div></div>
+        </details>
+
+        <details class="pergunta rev">
+          <summary>Qual a diferença entre psicanálise e outras terapias?<span class="pergunta__mais" aria-hidden="true"></span></summary>
+          <div class="corpo"><div><p>A psicanálise não trabalha com metas de comportamento nem com prazo definido. Ela parte da fala livre: você diz o que vier, e o que aparece nas brechas — nos lapsos, nos sonhos, no que se repete — é o material do trabalho.</p></div></div>
+        </details>
+
+        <details class="pergunta rev">
+          <summary>Quanto tempo dura uma análise?<span class="pergunta__mais" aria-hidden="true"></span></summary>
+          <div class="corpo"><div><p>Não há resposta honesta em número de meses. O tempo é de cada um. O que posso dizer é que os primeiros efeitos costumam aparecer antes do que se imagina, e que você decide, a cada momento, se quer seguir.</p></div></div>
+        </details>
+
+        <details class="pergunta rev">
+          <summary>Como funciona o valor?<span class="pergunta__mais" aria-hidden="true"></span></summary>
+          <!-- MOCK: política de valores -->
+          <div class="corpo"><div><p>Conversamos sobre isso no primeiro contato, com atenção à sua realidade. Reservo algumas vagas a valor social.</p></div></div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══ CONTATO · o amanhecer ══ -->
+  <section class="contato" id="contato">
+    <div class="env contato__conteudo">
+      <p class="sobrancelha sobrancelha--dia rev">Primeiro contato</p>
+      <h2 class="contato__titulo rev" style="--d:.08s">Amanhece quando se fala.</h2>
+
+      <div class="painel rev" style="--d:.16s">
+        <p class="painel__texto">
+          Me escreva em poucas linhas o que te traz aqui. Respondo pessoalmente,
+          e a primeira conversa não tem compromisso.
+        </p>
+
+        <a data-zap href="https://wa.me/5584900000000" class="btn btn--noite btn--grande">
+          <svg class="icone-zap" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m0 1.67c2.2 0 4.27.86 5.82 2.42a8.19 8.19 0 0 1 2.42 5.83c0 4.54-3.7 8.23-8.24 8.23a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24M8.53 7.33c-.16 0-.43.06-.66.31-.22.25-.86.85-.86 2.07s.89 2.4 1.01 2.56c.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.46-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.07-.1-.23-.16-.48-.28-.25-.14-1.47-.72-1.69-.81-.23-.08-.37-.12-.56.12-.16.25-.64.81-.78.97-.15.17-.29.19-.53.07-.26-.13-1.06-.39-2-1.23-.74-.66-1.23-1.47-1.38-1.72-.12-.24-.01-.39.11-.5.11-.11.27-.29.37-.44.13-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43-.14 0-.3-.01-.47-.01"/></svg>
+          Falar no WhatsApp
+          <svg class="icone-seta" viewBox="0 0 16 16" aria-hidden="true"><path d="M1 8h13M9 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+
+        <ul class="painel__vias">
+          <!-- MOCK: e-mail, Instagram e localização -->
+          <li><span>E-mail</span><a href="mailto:contato@exemplo.com.br">contato@exemplo.com.br</a></li>
+          <li><span>Instagram</span><a href="https://instagram.com/exemplo" target="_blank" rel="noopener">@exemplo</a></li>
+          <li><span>Onde</span><a href="#encontro">Natal/RN e online</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  </div><!-- /.crepusculo -->
+
+</main>
+
+<footer class="rodape">
+  <div class="env rodape__linha">
+    <p class="rodape__nome">Lucas Henrique Santos <span>· Psicanalista · CRP 00/000000</span></p>
+    <p class="rodape__ano">Natal/RN &amp; online · <span id="ano">2026</span></p>
+  </div>
+</footer>
+</div>
+
+<!-- MOCK: botão flutuante, href reescrito por script.js -->
+<a data-zap href="https://wa.me/5584900000000" class="zap-flutuante" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m0 1.67c2.2 0 4.27.86 5.82 2.42a8.19 8.19 0 0 1 2.42 5.83c0 4.54-3.7 8.23-8.24 8.23a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24M8.53 7.33c-.16 0-.43.06-.66.31-.22.25-.86.85-.86 2.07s.89 2.4 1.01 2.56c.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.46-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.07-.1-.23-.16-.48-.28-.25-.14-1.47-.72-1.69-.81-.23-.08-.37-.12-.56.12-.16.25-.64.81-.78.97-.15.17-.29.19-.53.07-.26-.13-1.06-.39-2-1.23-.74-.66-1.23-1.47-1.38-1.72-.12-.24-.01-.39.11-.5.11-.11.27-.29.37-.44.13-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43-.14 0-.3-.01-.47-.01"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>

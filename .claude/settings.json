@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import playwright\")",
+      "Bash(node -e \"require.resolve\\('puppeteer'\\)\")",
+      "Bash(google-chrome --headless=new --disable-gpu --no-sandbox --hide-scrollbars --virtual-time-budget=8000 --window-size=1440,6800 --screenshot=full.png http://localhost:8899/index.html)",
+      "Bash(google-chrome --headless=new --disable-gpu --no-sandbox --hide-scrollbars --virtual-time-budget=8000 --window-size=390,3400 --screenshot=mobile.png http://localhost:8899/index.html)"
+    ]
+  }
+}
