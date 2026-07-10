@@ -732,6 +732,17 @@ section[id] { scroll-margin-top: 5rem; }
   );
 }
 
+/* No mobile o FAQ é um acordeão: abrir uma pergunta muda a altura
+   de #encontro, e um degradê calibrado em percentual (pensado para
+   uma altura fixa) volta a clarear no lugar errado. Em vez de caçar
+   um ponto de equilíbrio que o próprio usuário pode desarmar num
+   toque, o amanhecer vira um corte direto: escuro na seção de
+   cima, luz plena já no início do contato. */
+@media (max-width: 780px) {
+  .crepusculo { background: none; }
+  .contato { background: var(--aurora); }
+}
+
 /* ══ CONTATO ════════════════════════════════════════════════ */
 .contato {
   position: relative;
